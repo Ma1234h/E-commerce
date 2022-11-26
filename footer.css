@@ -1,0 +1,149 @@
+.footer{
+    padding: 60px 0px;
+    background-color: rgb(240, 62, 62)
+}
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.footer_logo {
+    flex-basis: 33%;
+    text-align: left;
+}
+
+.footer_menu_list {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.footer_conact_list {
+    flex-basis: 33.33%;
+    text-align: right;
+}
+
+.list_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    margin-bottom: 10px;
+    transition: 0.3s all;
+}
+.list_item .list_icon:hover a{
+    color: darkgoldenrod;
+    transition: 0.3s all;
+}
+.list_item .list_text:hover a{
+    color: darkgoldenrod;
+    transition: 0.3s all;
+
+}
+.list_item ul li a:hover{
+    color: darkgoldenrod;
+    transition: 0.3s all;
+
+}
+
+
+.list_icon {
+    flex-basis: 13%;
+}
+
+.list_text {
+    flex-basis: 50%;
+}
+
+.list_item ul {
+    flex-basis: 15%;
+}
+.btn_book {
+    flex-basis: 10%;
+    background: rgb(227, 165, 10);
+    color: #fff;
+    border-radius: 20px;
+    padding:8px 20px;
+    text-align: center;
+    transition: 0.3s;
+    display: inline-block;
+    margin-bottom: 41px;
+}
+.btn_book:hover{
+background-color: transparent;
+border: 1px solid darkgoldenrod;
+}
+.footer_logo h2>a {
+    font-size: 38px;
+    text-align: left;
+}
+.footer_logo h2 {
+    text-align: left;
+}
+.footer_menu_list ul li a{
+    transition: 0.3s all;
+}
+.footer_menu_list ul li a:hover{
+    color: darkgoldenrod;
+    border-bottom: 1px solid #fff;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .list_item .list_text{
+        flex-basis: 70%;
+    }
+    .list_item .list_text a{
+        font-size: 13px;
+    }
+
+
+}
+
+@media(max-width:767px){
+    .footer_menu {
+        display: block;
+    }
+    
+    .footer_logo {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .footer_menu_list {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .footer_conact_list {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .list_item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+     
+}
+.footer_logo h2 {
+    text-align: center;
+}
+.btn_book{
+    margin-bottom: 20px;
+}
+.list_item .list_text{
+    flex-basis: 60%;
+}
+.list_item .list_text a{
+    font-size: 16px;
+}
+.footer{
+    padding: 0px 0px 40px;
+
+}
+
+}

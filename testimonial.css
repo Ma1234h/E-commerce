@@ -1,0 +1,125 @@
+.testimonial{
+    padding: 70px 0px;
+}
+.testimonial .customer_review_box{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color:#fff; 
+    box-shadow: 0 20px 20px 0 rgba(16, 15, 15, 0.2), 0 6px 20px 0 rgba(5, 4, 4, 0.19);
+}
+.testimonial .riview_box_content{
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.testimonial .customer_img_name img{
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+    border-radius: 50px;
+
+}
+.testimonial .customer_img_name p{
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.testimonial .customer_rating {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.testimonial .slick-prev.slick-arrow {
+    position: absolute;
+    z-index: 1;
+    left: -100px;
+    top: 50%;
+}
+.testimonial .slick-next.slick-arrow {
+    position: absolute;
+    z-index: 1;
+    right: -100px;
+    top: 50%;
+}
+.testimonial .slick-prev.slick-arrow i {
+    font-size: 43px;
+    color: #000;
+    cursor: pointer;
+}
+.testimonial .slick-next.slick-arrow i {
+    font-size: 43px;
+    color: #000;
+    cursor: pointer;
+}
+.testimonial .customer_riview{
+    margin: 20px 0px;
+}
+
+.customer_rating ul li i{
+    color: darkgoldenrod;
+}
+.testimonial .comment p{
+    color: #000;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+   
+    
+}
+.testimonial .comment{
+    padding-top: 40px;
+    padding-bottom: 10px;
+ 
+}
+/* media quires */
+/* Tab View */
+@media(min-width:768px) and (max-width:1024px){
+    .testimonial
+    {
+        padding: 0px 0px 30px;
+    }
+    .testimonial .riview_box_content{
+        max-width: 451px;
+    }
+}
+@media (max-width:767px){
+    .testimonial
+    {
+        padding: 0px 0px 30px;
+    }
+    .testimonial .riview_box_content{
+        max-width: 300px;
+    }
+    .testimonial .customer_riview h4{
+        font-size: 16px;
+    }
+    .testimonial .slick-prev.slick-arrow{
+        left: 0;
+    }
+    .testimonial .slick-next.slick-arrow.slick-arrow{
+       right: 0;
+    }
+    .testimonial .slick-prev.slick-arrow i{
+        font-size: 20px;
+    }
+    .testimonial .slick-next.slick-arrow i{
+        font-size: 20px;
+    }
+    .testimonial .comment p{
+        font-size: 22px;
+       
+        
+    }
+    .testimonial .comment{
+        padding-top: 20px;
+        padding-bottom: 10px;
+     
+    }
+
+
+
+}

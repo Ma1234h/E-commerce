@@ -1,0 +1,135 @@
+.about_us{
+    padding: 80px 0px;
+}
+.about_us .about_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.about_us .box_left{
+    flex-basis: 40%;
+    margin-right: 7%;
+}
+.about_us .box_right{
+    flex-basis: 53%;
+ 
+}
+img {
+    width: 100%;
+    display: block;
+}
+.about_us .box_heading h2{
+    text-align: left;
+    color: darkgoldenrod;
+}
+.about_us .box_paragrap p{
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+
+}
+.about_us .box_paragrap{
+    margin: 20px 0px;
+}
+.about_us .extend p{
+    text-align: left;
+    font-size: 20px;
+
+    color: #000;
+   
+}
+.about_us .extend{
+    padding-bottom: 25px;
+}
+.about_us .box_left hr{
+    width: 100%;
+    max-width: 300px;
+    height: 4px;
+    background: darkgoldenrod;
+    margin-right: 0 auto;
+
+
+}
+.about_us .section_title {
+    width: 100%;
+    max-width: 210px;
+    margin: 0 auto;
+    /* border-bottom: 3px solid darkgoldenrod; */
+    margin-bottom: 40px;
+}
+hr {
+   width: 100%;
+    max-width: 172px;
+    height: 4px;
+    background: darkgoldenrod;
+    margin: 0 auto;
+}
+@media(min-width:768px) and (max-width:1024px){
+    .about_us{
+        padding: 60px 0px;
+    }
+    .about_us .box_left{
+        flex-basis: 44%;
+        margin-right: 4%;
+    }
+    .about_us .box_right{
+        flex-basis: 52%;
+     
+    }
+    .about_us .box_paragrap p{
+        font-size: 16px;
+    
+    }
+    .about_us .box_paragrap{
+        margin: 20px 0px;
+    }
+    .about_us .extend p{
+        font-size: 16px;
+    
+       
+    }
+    .about_us .box_paragrap{
+        margin: 10px 0px;
+    }
+    
+    
+    
+}
+
+/* mobile view */
+@media (max-width:767px){
+    .about_us{
+        padding: 40px 0px;
+    }
+    .about_us .about_box{
+        display: flex;
+    }    
+    .about_us .box_left{
+        flex-basis: 100%;
+        margin-right: 0%;
+        margin-bottom: 20px;
+    }
+    .about_us .box_right{
+        flex-basis: 100%;
+     
+    }
+    .about_us .box_paragrap p{
+        font-size: 16px;
+    
+    }
+    .about_us .box_paragrap{
+        margin: 20px 0px;
+    }
+    .about_us .extend p{
+        font-size: 16px;
+    
+       
+    }
+    .about_us .box_paragrap{
+        margin: 10px 0px;
+    }
+
+  
+}

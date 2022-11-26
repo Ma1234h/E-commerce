@@ -1,0 +1,121 @@
+.subscribe_sec{
+    padding: 40px 0px;
+    background-color: rgb(240, 62, 62)
+
+}
+.subscribe_sec .subscribe_heading p{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+
+}
+.subscribe_sec .subscribe_heading h2{
+    color: #fff;
+}
+.subscribe_sec .subscribe_heading {
+    margin-bottom: 40px;
+}
+.subscribe_sec form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe_sec .email_id {
+    flex-basis: 48%;
+    margin-right: 6%;
+}
+
+.subscribe_sec .sigup {
+    flex-basis: 30%;
+}
+
+.subscribe_sec input[type="email"] {
+    width: 100%;
+    max-width: 700px;
+    padding: 18px;
+    font-size: 16px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #fff;
+
+}
+
+.subscribe_sec input[type="submit"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    font-size: 26px;
+    border-radius: 15px;
+    background-color: darkgoldenrod;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s all;
+  border: 1px solid darkgoldenrod;
+
+}
+.subscribe_sec input[type="submit"]:hover {
+    background: transparent;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .subscribe_sec .subscribe_heading p{
+        font-size: 25px;
+    
+    }
+    
+    .subscribe_sec{
+        padding: 0px 0px 40px;
+    }
+    
+}
+
+@media(max-width:767px){
+    .subscribe_sec .subscribe_heading p{
+        font-size: 20px;
+    
+    }
+    .subscribe_sec .subscribe_heading h2{
+        font-size: 25px;
+    }
+    .subscribe_sec{
+        padding: 0px 0px 40px;
+    }
+    .subscribe_sec .subscribe_email {
+        display: block;
+    }
+
+    
+    .subscribe_sec .email_id {
+        flex-basis: 100%;
+        margin-right: 0%;
+        margin-bottom: 20px;
+    }
+    
+    .subscribe_sec .sigup {
+        flex-basis: 100%;
+    }
+    
+ .subscribe_sec input[type="submit"] {
+    font-size: 16px;
+    max-width: 100%;
+ }
+ .subscribe_sec input[type="email"] {
+    max-width: 100%;
+ }
+ .subscribe_sec .subscribe_heading {
+    margin-bottom: 25px;
+ }
+}
+@media(max-width:370px){
+    .subscribe_sec .subscribe_heading p{
+        font-size: 16px;
+    
+    }
+    .subscribe_sec .subscribe_heading h2{
+        font-size: 20px;
+    }
+  
+}

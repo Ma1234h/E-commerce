@@ -1,0 +1,85 @@
+.topbar{
+    padding: 20px 0px;
+    background-color: rgb(240, 62, 62);
+    border-bottom: 1px solid #fff;
+
+}
+.topbar_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media_icon {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.login_bell_addcart {
+    flex-basis: 50%;
+    text-align: end;
+}
+
+.icon_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.icon_list ul {
+    flex-basis: 10%;
+}
+.icon_list ul li a {
+    transition: .3s all;
+}
+.icon_list ul li a:hover {
+    color: darkgoldenrod;
+}
+
+
+.login_bell_addcart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.login_icon {
+    flex-basis: 35%;
+}
+
+.bell_icon {
+    flex-basis: 10%;
+}
+.bell_icon i{
+    color: #fff;
+    cursor: pointer;
+}
+
+.addcart_icon {
+    flex-basis: 10%;
+}
+.addcart_icon i {
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width:767px){
+    .icon_list ul {
+        flex-basis: 20%;
+    }
+    .login_icon {
+        flex-basis: 60%;
+    }
+    
+    .bell_icon {
+        flex-basis: 20%;
+    }
+   
+    
+    .addcart_icon {
+        flex-basis: 20%;
+    }
+    
+    
+}

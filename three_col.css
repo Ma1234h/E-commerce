@@ -1,0 +1,78 @@
+.oure_services .three_col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.oure_services .work_hourse {
+    flex-basis: 31.3%;
+    margin-right: 3%;
+}
+
+.oure_services .work_hourse:nth-child(3n+3) {
+    margin-right: 0%;
+}
+
+.oure_services {
+    padding: 70px 0px;
+}
+
+.oure_services .work_time p {
+    color: #000;
+    text-align: center;
+}
+.oure_services .adders p {
+    color: #000;
+    text-align: center;
+}
+.oure_services .contact p {
+    color: #000;
+    text-align: center;
+}
+.oure_services .adders {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.oure_services .icon {
+    text-align: center;
+    object-fit: cover;
+    display: block;
+}
+.oure_services .icon a {
+    color: #de4912;
+    text-align: center;
+    font-size: 25px;
+}
+.oure_services .section_title {
+    margin: 20px 0px;
+}
+
+/* media quires */
+
+/* Mobile views */
+
+@media (max-width:767px){
+    .oure_services .three_col {
+        display: block;
+    }
+    
+    .oure_services .work_hourse {
+        flex-basis: 100%;
+        margin-right: 0%;
+        margin-bottom: 25px;
+    }
+    
+    .oure_services .work_hourse:nth-child(3n+3) {
+        margin-right: 0%;
+        margin-bottom: 0px;
+    }
+    
+    .oure_services {
+        padding: 40px 0px;
+    }
+     
+}
