@@ -1,0 +1,180 @@
+.hero_banner .banner_content{
+    padding: 170px 0px 170px 40px;
+}
+.hero_banner .heading h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.hero_banner .content_info p {
+    font-size: 30px;
+}
+
+.hero_banner .content_info {
+    padding: 10px 76px;
+}
+
+.hero_banner .primary-btn a {
+    padding: 9px 33px;
+    background-color: #f4a20c;
+    border-radius: 50px;
+    font-size: 25px;
+    transition: .5s all ease-in-out;
+    
+}
+
+.hero_banner .primary-btn {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    max-width: 625px;
+    margin-top: 15px;
+}
+.hero_banner .primary-btn a:hover{
+    background-color: transparent;
+    border: 1px solid #f4a20c;
+}
+.hero_banner .slick-prev.slick-arrow i {
+    font-size: 43px;
+    color: #fff;
+    cursor: pointer;
+}
+.hero_banner .slick-next.slick-arrow i {
+    font-size: 43px;
+    color: #fff;
+    cursor: pointer;
+}
+.slick-prev.slick-arrow img {
+    width: 100%;
+    max-width: 53px;
+}
+.slick-next.slick-arrow img {
+    width: 100%;
+    max-width: 53px;
+}
+.hero_banner .slick-prev.slick-arrow {
+    position: absolute;
+    z-index: 1;
+    left: 28px;
+    top: 40%;
+}
+.hero_banner .slick-next.slick-arrow {
+    position: absolute;
+    z-index: 1;
+    right: 28px;
+    top: 40%;
+}
+.hero_banner ul.slick-dots {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 100px;
+    bottom: 12%;
+    list-style-type: circle !important;
+    font-size: 40px;
+    letter-spacing: 31px;
+    gap: 26px;
+    color: #e4e1da;
+    margin-top: 70px;
+  }
+  
+  .hero_banner ul.slick-dots li {
+    list-style: disc;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  .hero_banner li.slick-active {
+    font-size: 40px !important;
+    color: #f4a20c;
+
+  }
+  
+  .hero_banner ul li button {
+    display: none;
+  }
+.hero_banner {
+    position: relative;
+    z-index: 1;
+}
+
+.hero_banner:after {
+    content: "";
+    position: absolute;
+    z-index: -6;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.943);
+    /* background-color: #827272; */
+}
+
+
+/* media quires */
+
+/* Tab View */
+@media (min-width:768px) and (max-width:1024px){
+    .hero_banner .heading h1{
+       font-size: 60px;
+        text-align: center;
+    }
+ .hero_banner .content_info p{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+/* Mobile view */
+@media (max-width:767px){
+.hero_banner .heading h1{
+    font-size: 30px;
+     text-align: center;
+ }
+.hero_banner .content_info p{
+     font-size: 20px;
+     text-align: center;
+ }
+ .hero_banner .primary-btn a{
+    font-size: 16px;
+ }
+ .hero_banner .banner_content{
+    padding:70px 0px;
+}
+.hero_banner .slick-prev.slick-arrow i {
+    font-size: 30px;
+}
+.hero_banner .slick-next.slick-arrow i {
+    font-size: 30px;
+
+}
+.hero_banner .slick-prev.slick-arrow {
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top: 45%;
+}
+.hero_banner .slick-next.slick-arrow {
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 45%;
+}
+
+.hero_banner ul.slick-dots{
+    left: 50%;
+    bottom: 5%;
+}
+
+}
+
+@media(max-width:370){
+    .hero_banner .content_info p{
+        font-size: 15px;
+
+    }       
+     
+}
